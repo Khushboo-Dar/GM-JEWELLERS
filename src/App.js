@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Home from './pages/home/Home';
+import CustomJwellery from './pages/custom jwellery/CustomJwellery';
+import Contact from './pages/contact/Contact';
+import JwelleryManufacturing from './pages/jwellery manufacturing/JwelleryManufacturing';
+import EngagementRings from './pages/engegement rings/EngagementRings';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/custom-jwellery" element={<CustomJwellery />} />
+          <Route path="/engagement-rings" element={<EngagementRings />} />
+          <Route path="/jwellery-manufacturing" element={<JwelleryManufacturing />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 
