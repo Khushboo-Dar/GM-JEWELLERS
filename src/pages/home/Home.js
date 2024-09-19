@@ -1,11 +1,23 @@
-import React from "react";
+import React from 'react';
+import '../navbar.css';
 
-function Home() {
-  return (
-    <div>
-      <h1>Home</h1>
-    </div>
-  );
+const Header = () => {
+    return (
+        <header className="navbar">
+            <div className="navbar-logo">
+                <h1>GM JEWELLERS</h1> {/* Logo */}
+            </div>
+            <nav className="navbar-links">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#about">About us</a>
+            </nav>
+            <div className="navbar-contact">
+                <a href="#contact" className="contact-button">Contact</a>
+            </div>
+        </header>
+    );
 }
 
-export default Home;
+export default Header;

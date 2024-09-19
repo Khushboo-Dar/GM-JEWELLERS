@@ -1,6 +1,6 @@
 :root{
-  --primary-color: '';
-  --secondary-color: '';
-  --primary-font : "";
-  --secondary-font : "";
+  --primary-color: '#382914';
+  --secondary-color: '#523C1E';
+  --primary-font : "Montserrat", sans-serif;
+  --secondary-font : "Gowun Batang", serif;
 }
