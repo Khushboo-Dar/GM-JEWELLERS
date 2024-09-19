@@ -5,8 +5,9 @@
 
 .cont-head{
   font-family: var(--primary-font);
+  color: var(--primary-color);
   font-size: 42px;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .row{
@@ -22,7 +23,7 @@
 }
 
 .img-fluid{
-  width: 36rem;
+  width: 40rem;
   height: 30rem;
   object-fit: cover;
 }
@@ -67,6 +68,7 @@
 
 .card-head{
   font-family: var(--primary-font);
+  color: var(--primary-color);
   font-size: 36px;
   padding-block: 0.4rem;
 }
@@ -78,15 +80,39 @@
   cursor: pointer;
   transition: all 0.3s ease;
   font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
 }
 
 .card-url:hover {
   color: #b38b59; /* Gold hover effect */
 }
 
-
 .back-home{
   display: flex;
   justify-content: center;
   padding-block: 4rem;
+}
+
+
+@media (min-width:1600px) and (max-width: 1800px) {
+  .container {
+      padding-inline: 10rem;
+  }
+  
+}
+
+@media (min-width:1400px) and (max-width: 1599px) {
+  .container {
+      padding-inline: 8rem;
+  }
+  
+}
+
+@media all and (max-width: 1399px) {
+  .container {
+      padding-inline: 4rem;
+  }
+
 }

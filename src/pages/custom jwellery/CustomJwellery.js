@@ -17,7 +17,7 @@ function CustomJwellery() {
         />
 
         <Row
-          imgUrl="custom-jwel1.jpg"
+          imgUrl="jwellery-3.jpg"
           text1="Our team specializes in designing and crafting complex custom jewelry in gold or platinum. Our 3D designers can work with even the most complex ideas and create a digital model for you to approve before committing to production."
           text2="More and more consumers are seeking out custom and unique jewelry, so it's important to include products that aren't found in other stores."
           heading={true}
@@ -25,7 +25,7 @@ function CustomJwellery() {
         />
 
         <Row
-          imgUrl="custom-jwel1.jpg"
+          imgUrl="jwellery-5.jpg"
           text1="Our team specializes in designing and crafting complex custom jewelry in gold or platinum. Our 3D designers can work with even the most complex ideas and create a digital model for you to approve before committing to production."
           text2="More and more consumers are seeking out custom and unique jewelry, so it's important to include products that aren't found in other stores."
         />
@@ -33,8 +33,8 @@ function CustomJwellery() {
         <Quote />
 
 		<div className="row">
-			<Card title="Custom Jwellery" url="#" imgUrl="custom-jwel1.jpg" />
-			<Card title="Custom Jwellery" url="#" imgUrl="custom-jwel1.jpg" />
+			<Card title="Engagement Rings" url="/engagement-rings" imgUrl="jwellery-3.jpg" />
+			<Card title="Jwellery Manufacturing" url="/jwellery-manufacturing" imgUrl="manufacturing.jpg" />
 		</div>
 
 		<div className="back-home">

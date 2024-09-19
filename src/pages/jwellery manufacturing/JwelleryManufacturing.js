@@ -12,13 +12,13 @@ function JwelleryManufacturing() {
         <h1 className="cont-head">Jwellery Manufacturing</h1>
 
         <Row
-          imgUrl="custom-jwel1.jpg"
+          imgUrl="manufacturing.jpg"
           text1="Our team specializes in designing and crafting complex custom jewelry in gold or platinum. Our 3D designers can work with even the most complex ideas and create a digital model for you to approve before committing to production."
           text2="More and more consumers are seeking out custom and unique jewelry, so it's important to include products that aren't found in other stores."
         />
 
         <Row
-          imgUrl="custom-jwel1.jpg"
+          imgUrl="jwellery-4.jpg"
           text1="Our team specializes in designing and crafting complex custom jewelry in gold or platinum. Our 3D designers can work with even the most complex ideas and create a digital model for you to approve before committing to production."
           text2="More and more consumers are seeking out custom and unique jewelry, so it's important to include products that aren't found in other stores."
           heading={true}
@@ -26,7 +26,7 @@ function JwelleryManufacturing() {
         />
 
         <Row
-          imgUrl="custom-jwel1.jpg"
+          imgUrl="jwellery-7.jpg"
           text1="Our team specializes in designing and crafting complex custom jewelry in gold or platinum. Our 3D designers can work with even the most complex ideas and create a digital model for you to approve before committing to production."
           text2="More and more consumers are seeking out custom and unique jewelry, so it's important to include products that aren't found in other stores."
         />
@@ -34,8 +34,8 @@ function JwelleryManufacturing() {
         <Quote />
 
         <div className="row">
-          <Card title="Custom Jwellery" url="#" imgUrl="custom-jwel1.jpg" />
-          <Card title="Custom Jwellery" url="#" imgUrl="custom-jwel1.jpg" />
+          <Card title="Custom Jwellery" url="/custom-jwellery" imgUrl="custom-jwel1.jpg" />
+          <Card title="Engagement Rings" url="/engagement-rings" imgUrl="jwellery-3.jpg" />
         </div>
 
         <div className="back-home">
