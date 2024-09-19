@@ -5,7 +5,7 @@ function Header(){
     return(
         <header className="navbar">
             <div className="navbar-logo">
-                <h1>GM JEWELLERS</h1> {/* Logo */}
+                <h1>GM</h1> {/* Logo */}
             </div>
             <nav className="navbar-links">
                 <a href="/">Home</a>
