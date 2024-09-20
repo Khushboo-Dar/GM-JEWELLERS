@@ -22,7 +22,7 @@ const Services = () => {
         <Card
           title={"Jwellery Manufacturing"}
           imgUrl="manufacturing.jpg"
-          desc="Our team of 3d modelers and jewelers can create literally any ring you can imagine, including complex designs. We're opening up our services to private clients, so you can get a beautiful, designer quality engagement ring at an affordable price."
+          desc="We work with you to make sure your jewelry is produced exactly as your specify and with impeccable standards. We can manufacture a unique collection for your store, or even work with custom orders for your customers. "
           url="/jwellery-manufacturing"
         />
       </div>
