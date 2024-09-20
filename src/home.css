@@ -1,0 +1,14 @@
+.home-cont-head{
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 42px;
+  }  
+
+.home-row-text{
+    justify-content: center;
+    gap: 0.6rem;
+  }
+  
+.home-btn{
+    margin-top: 1rem;
+}

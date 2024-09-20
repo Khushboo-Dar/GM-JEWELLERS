@@ -1,0 +1,77 @@
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 14rem;
+    background-color: #FAF7F0;
+    height: 100px;
+}
+
+/* Logo */
+.navbar-logo h1 {
+    font-family: var(--primary-font); 
+    font-size: 28px;
+    font-weight: bold;
+    color:var(--secondary-color); 
+}
+
+/* Navbar links */
+.navbar-links {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    font-family: var(--primary-font); 
+    color:var(--primary-color);
+    margin: 0 28px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.navbar-links a:hover {
+    color: #b38b59; /* Gold hover effect */
+}
+
+/* Contact Button */
+.navbar-contact .contact-button {
+    background-color: #523C1E; 
+    color: #FAF7F0;
+    padding: 12px 32px;
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-size: 18px;
+    transition: all 0.3s ease;
+    border: 1px solid #523C1E;
+}
+
+.navbar-contact .contact-button:hover {
+    background-color: var(--primary-color); 
+    color: #b38b59;
+    border: 1px solid #b38b59;
+}
+
+
+@media (min-width:1600px) and (max-width: 1800px) {
+    .navbar {
+        padding-inline: 10rem;
+    }
+    
+}
+
+@media (min-width:1400px) and (max-width: 1599px) {
+    .navbar {
+        padding-inline: 8rem;
+    }
+    
+  }
+
+@media all and (max-width: 1399px) {
+    .navbar {
+        padding-inline: 4rem;
+    }
+
+}
