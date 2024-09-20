@@ -18,7 +18,7 @@ function EngagementRings() {
 
         <Row
           imgUrl="jwellery-6.jpg"
-          text1="Everyone knows that the jewelry industry is highly competitive. It takes just the right measure of innovation, quality and determination to succeed. But producing the perfect product can use up precious time and resources. Working with NaamNYC allows you to easily expand your jewelry inventory and grow your business."
+          text1="Everyone knows that the jewellery industry is highly competitive. It takes just the right measure of innovation, quality and determination to succeed. But producing the perfect product can use up precious time and resources. Working with NaamNYC allows you to easily expand your jewelry inventory and grow your business."
           text2=""
           heading={true}
           reverse={true}
@@ -33,8 +33,8 @@ function EngagementRings() {
         <Quote />
 
         <div className="row">
-          <Card title="Custom Jwellery" url="/custom-jwellery" imgUrl="custom-jwel1.jpg" />
-          <Card title="Jwellery Manufacturing" url="/jwellery-manufacturing" imgUrl="manufacturing.jpg" />
+          <Card title="Custom Jewellery" url="/custom-jwellery" imgUrl="custom-jwel1.jpg" />
+          <Card title="Jewellery Manufacturing" url="/jwellery-manufacturing" imgUrl="manufacturing.jpg" />
         </div>
 
         <div className="back-home">

@@ -8,7 +8,7 @@ function CustomJwellery() {
     <div>
       <Header />
       <div className="container">
-        <h1 className="cont-head">Custom Jwellery</h1>
+        <h1 className="cont-head">Custom Jewellery</h1>
 
         <Row
           imgUrl="custom-jwel1.jpg"
@@ -18,7 +18,7 @@ function CustomJwellery() {
 
         <Row
           imgUrl="jwellery-3.jpg"
-          text1="Everyone knows that the jewelry industry is highly competitive. It takes just the right measure of innovation, quality and determination to succeed. But producing the perfect product can use up precious time and resources. Working with NaamNYC allows you to easily expand your jewelry inventory and grow your business."
+          text1="Everyone knows that the jewellery industry is highly competitive. It takes just the right measure of innovation, quality and determination to succeed. But producing the perfect product can use up precious time and resources. Working with NaamNYC allows you to easily expand your jewelry inventory and grow your business."
           text2=""
           heading={true}
           reverse={true}
@@ -26,7 +26,7 @@ function CustomJwellery() {
 
         <Row
           imgUrl="jwellery-5.jpg"
-          text1="We work with you to make sure your jewelry is produced exactly as your specify and with impeccable standards. We can manufacture a unique collection for your store, or even work with custom orders for your customers."
+          text1="We work with you to make sure your jewellery is produced exactly as your specify and with impeccable standards. We can manufacture a unique collection for your store, or even work with custom orders for your customers."
           text2="NaamNYC is your one-stop shop for all your manufacturing needs."
         />
 
@@ -34,7 +34,7 @@ function CustomJwellery() {
 
 		<div className="row">
 			<Card title="Engagement Rings" url="/engagement-rings" imgUrl="jwellery-3.jpg" />
-			<Card title="Jwellery Manufacturing" url="/jwellery-manufacturing" imgUrl="manufacturing.jpg" />
+			<Card title="Jewellery Manufacturing" url="/jwellery-manufacturing" imgUrl="manufacturing.jpg" />
 		</div>
 
 		<div className="back-home">
