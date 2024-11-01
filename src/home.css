@@ -12,3 +12,105 @@
 .home-btn{
     margin-top: 1rem;
 }
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #f8f6f4;
+  position: relative;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 50%;
+  text-align: center;
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  font-weight: 200;
+  line-height: 1.4;
+  color: #2B2024;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.contact-btn {
+  background-color: #523C1e;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: var(--primary-color); 
+  color: #b38b59;
+  border: 1px solid #b38b59;
+}
+
+.gallery-link {
+  margin-left: 20px;
+  font-size: 16px;
+  color: #2B2024;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.gallery-link:hover {
+  text-decoration: underline;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* Aligns the base of both images */
+  gap: 10px; /* Space between the two images */
+  flex: 1;
+  max-width: 50%;
+  padding-right: 30px;
+}
+
+.diamond-image {
+  width: 233px; /* Adjusted width for balance */
+  height: 319px;
+  border-radius: 0;
+  border-top-right-radius: 90px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  margin-top: 50px; /* Shifts the diamond-image down */
+}
+
+.stone-image {
+  width: 351px;
+  height: 536px;
+  border-radius: 0;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 2; /* Stone image above the overlay */
+}
+
+
+.brown-box{
+  position: absolute;
+  z-index: 2; 
+  width: 351px;
+  left: 1245px;
+  top: 4px;
+  height: 536px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border:3px solid #B68341;
+}
+
+.container {
+  padding-top: 50px;
+}
